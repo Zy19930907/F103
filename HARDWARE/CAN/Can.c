@@ -182,7 +182,7 @@ void CANTask(void)
 		
 		case CANINIT:
 			Can1Init();
-			CanAddObserver(CanTest);
+			//CanAddObserver(CanTest);
 			Can.Status = CANIDLE;
 			break;
 	}

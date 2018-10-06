@@ -37,7 +37,7 @@
 ".\objects\gui_fonthz24.o"
 ".\objects\gui_uc_encodenone.o"
 ".\objects\guicharpex.o"
---strict --scatter ".\Objects\SWD.sct"
+--library_type=microlib --strict --scatter ".\Objects\SWD.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\SWD.map" -o .\Objects\SWD.axf

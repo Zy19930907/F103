@@ -13,17 +13,17 @@ u32 MsTickDiff(u32 tick)
 
 void TIM3_IRQHandler(void)
 { 	
-	if(TIM3->SR&0x0001)//溢出中断
+	if(TIM3->SR & 0x01)//溢出中断
 		SYS_TICK ++;
-		OS_TimeMS++;
+//		OS_TimeMS++;
 	TIM3->SR &= ~(1<<0);//清除中断标志位 		   
 }
 //初始化系统时钟，1ms累加
 void SysTickInit(void)
 {
 	RCC->APB1ENR |= 1<<1;//TIM3时钟使能    
- 	TIM3->ARR = 1000;  //设定计数器自动重装值//刚好1ms    
-	TIM3->PSC = 71;  //预分频器72,得到1MHz的计数时钟
+ 	TIM3->ARR = 8000;  //设定计数器自动重装值//刚好1ms    
+	TIM3->PSC = 8;  //预分频器9,得到8MHz的计数时钟
 
 	TIM3->DIER |= 1<<0;   //允许更新中断				
 	TIM3->DIER |= 1<<6;   //允许触发中断	   

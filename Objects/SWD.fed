@@ -1,13 +1,41 @@
-;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Sun Sep 30 17:48:28 2018
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Sat Oct 06 20:30:45 2018
 ;VERSION 0.2
+;FILE 24cxx.o
+AT24CXX_Check <= USED 0
+AT24CXX_Init <= USED 0
+AT24CXX_ReadLenByte <= USED 0
+AT24CXX_WriteLenByte <= USED 0
+;FILE button.o
+BUTTON_CreateEx <= USED 0
+BUTTON_GetUserData <= USED 0
+BUTTON_GetpWidget <= USED 0
+BUTTON_SetFocussable <= USED 0
+BUTTON_SetReactOnLevel <= USED 0
+BUTTON_SetReactOnTouch <= USED 0
+BUTTON_SetState <= USED 0
+BUTTON_SetTextOffset <= USED 0
+BUTTON_SetUserData <= USED 0
+;FILE button_createindirect.o
+;FILE button_skin.o
+BUTTON_SetSkin <= USED 0
+;FILE button_skinclassic.o
+BUTTON_SetDefaultSkinClassic <= USED 0
+BUTTON_SetSkinClassic <= USED 0
+;FILE button_skinflex.o
+BUTTON_GetSkinFlexProps <= USED 0
+BUTTON_SetSkinFlexProps <= USED 0
 ;FILE can.o
-CAN_IO_Init <= USED 0
-Can1Init <= USED 0
-Can1RecvFunc <= USED 0
-CanBaudValue <= USED 0
-CanIdSwitch <= USED 0
-CanRegisterConfig <= USED 0
+CanDelObserver <= USED 0
+;FILE ctiic.o
 ;FILE delay.o
+;FILE dialog.o
+DIALOG_GetBkColor <= USED 0
+DIALOG_SetBkColor <= USED 0
+GUI_EndDialog <= USED 0
+GUI_ExecCreatedDialog <= USED 0
+GUI_ExecDialogBox <= USED 0
+GUI_GetDialogStatusPtr <= USED 0
+GUI_SetDialogStatusPtr <= USED 0
 ;FILE diskio.o
 disk_ioctl <= USED 0
 ff_memalloc <= USED 0
@@ -73,23 +101,374 @@ put_fat <= USED 0
 fupd_prog <= USED 0
 updata_fontx <= USED 0
 update_font <= USED 0
+;FILE framewin.o
+FRAMEWIN_CreateEx <= USED 0
+FRAMEWIN_GetUserData <= USED 0
+FRAMEWIN_SetMoveable <= USED 0
+FRAMEWIN_SetUserData <= USED 0
+;FILE framewin__updatebuttons.o
+;FILE framewin_createindirect.o
+;FILE framewin_setcolors.o
+FRAMEWIN_SetBarColor <= USED 0
+FRAMEWIN_SetClientColor <= USED 0
+FRAMEWIN_SetTextColorEx <= USED 0
+;FILE framewin_setfont.o
+;FILE framewin_setownerdraw.o
+;FILE framewin_settitleheight.o
+;FILE framewin_skinclassic.o
+FRAMEWIN_SetDefaultSkinClassic <= USED 0
+FRAMEWIN_SetSkinClassic <= USED 0
+;FILE gt9147.o
+;FILE gui_2dlib.o
+GL_MoveTo <= USED 0
+GUI_MoveRel <= USED 0
+GUI_MoveTo <= USED 0
+;FILE gui__alpha.o
+GUI_SetFuncAlphaBlending <= USED 0
+GUI_SetFuncMixColors <= USED 0
+GUI_SetFuncMixColorsBulk <= USED 0
+GUI__SetAlphaBufferSize <= USED 0
+;FILE gui__calctextrect.o
+;FILE gui__compactpixelindices.o
+;FILE gui__divideround32.o
+;FILE gui__drawtwinarc.o
+GUI__DrawTwinArc2 <= USED 0
+GUI__FillTrippleArc <= USED 0
+;FILE gui__expandpixelindices.o
+GUI__ExpandPixelIndices <= USED 0
+;FILE gui__getnumchars.o
+;FILE gui__handleeoline.o
+GUI__HandleEOLine <= USED 0
+;FILE gui__intersectrect.o
+;FILE gui__intersectrects.o
+;FILE gui__managecache.o
+GUI_SetRefreshHook <= USED 0
+;FILE gui__memset.o
+;FILE gui__memset16.o
+;FILE gui__reducerect.o
+;FILE gui__settext.o
+;FILE gui__sqrt32.o
+;FILE gui__strcmp.o
+;FILE gui__strlen.o
+;FILE gui__wrap.o
+;FILE gui_alloc.o
+GUI_ALLOC_GetNumFreeBlocks <= USED 0
+GUI_ALLOC_GetNumFreeBytes <= USED 0
+GUI_ALLOC_GetNumUsedBlocks <= USED 0
+GUI_ALLOC_GetNumUsedBytes <= USED 0
+GUI_ALLOC_Lock <= USED 0
+GUI_ALLOC_SetMaxPercentage <= USED 0
+GUI_ALLOC_Unlock <= USED 0
+GUI_ALLOC_p2h <= USED 0
+;FILE gui_alloc_allocinit.o
+;FILE gui_alloc_alloczero.o
+;FILE gui_array.o
+GUI_ARRAY_GethItem <= USED 0
+GUI_ARRAY_SetItem <= USED 0
+;FILE gui_array_deleteitem.o
+;FILE gui_array_resizeitem.o
+;FILE gui_calccolordist.o
+;FILE gui_char.o
+GL_DispChar <= USED 0
+GUI_DispNextLine <= USED 0
+;FILE gui_charline.o
+;FILE gui_charm.o
+;FILE gui_charp.o
+;FILE gui_clearrectex.o
+;FILE gui_core.o
+GUI_Exit <= USED 0
+GUI_SetFuncGetpPalConvTable <= USED 0
+;FILE gui_curs1.o
+GUI_CURSOR_GetState <= USED 0
+GUI_CURSOR_Hide <= USED 0
+GUI_CURSOR_HideEx <= USED 0
+GUI_CURSOR_Select <= USED 0
+GUI_CURSOR_SetBitmap <= USED 0
+GUI_CURSOR_SetBitmapEx <= USED 0
+GUI_CURSOR_SetPosition <= USED 0
+GUI_CURSOR_Show <= USED 0
+GUI_CURSOR_ShowEx <= USED 0
+GUI_CURSOR__GetSpriteEx <= USED 0
+GUI_CURSOR__SetSpriteEx <= USED 0
+;FILE gui_device.o
+GUI_DEVICE_LinkDevices <= USED 0
+GUI_DEVICE_UnlinkTaskDevices <= USED 0
+GUI_DEVICE__GetpDevice <= USED 0
+;FILE gui_dispstring.o
+;FILE gui_dispstringat.o
+;FILE gui_dispstringinrect.o
+GUI_DispStringInRectMax <= USED 0
+GUI__DispStringInRect <= USED 0
+;FILE gui_dispstringinrectwrap.o
+;FILE gui_draw.o
+;FILE gui_drawbitmap.o
+;FILE gui_drawfocusrect.o
+;FILE gui_drawgradient.o
+GUI_DrawGradientH <= USED 0
+;FILE gui_drawhline.o
+;FILE gui_drawvline.o
+;FILE gui_exec.o
+GUI_Exec <= USED 0
+GUI_Exec1 <= USED 0
+;FILE gui_fillrect.o
+;FILE gui_fillrectex.o
+;FILE gui_getbitmappixelindex.o
+;FILE gui_getclientrect.o
+;FILE gui_getcolor.o
+GUI_GetBkColorIndex <= USED 0
+GUI_GetColorIndex <= USED 0
+;FILE gui_getorg.o
+;FILE gui_getstringdistx.o
+;FILE gui_getysizeoffont.o
+;FILE gui_goto.o
+GUI_GotoX <= USED 0
+GUI_GotoY <= USED 0
+;FILE gui_mergerect.o
+;FILE gui_moverect.o
+;FILE gui_onkey.o
+GUI_ClearKeyBuffer <= USED 0
+GUI_GetKey <= USED 0
+GUI_GetKeyState <= USED 0
+GUI_SendKeyMsg <= USED 0
+GUI_StoreKeyMsg <= USED 0
+;FILE gui_pen.o
+GUI_GetPenShape <= USED 0
+GUI_GetPenSize <= USED 0
+GUI_SetPenShape <= USED 0
+;FILE gui_pid.o
+GUI_PID_GetCurrentState <= USED 0
+GUI_PID_IsPressed <= USED 0
+;FILE gui_realloc.o
+;FILE gui_rectsintersect.o
+;FILE gui_savecontext.o
+;FILE gui_selectlayer.o
+GUI_AssignCursorLayer <= USED 0
+GUI_GetSelLayer <= USED 0
+GUI_SetLayerAlphaEx <= USED 0
+;FILE gui_selectlcd.o
+;FILE gui_setalpha.o
+GUI_SetAlpha <= USED 0
+;FILE gui_setcolor.o
+;FILE gui_setdefault.o
+GUI_SetDefault <= USED 0
+;FILE gui_setdrawmode.o
+;FILE gui_setfont.o
+;FILE gui_setlinestyle.o
+;FILE gui_setorg.o
+;FILE gui_settextalign.o
+;FILE gui_settextmode.o
+;FILE gui_sprite.o
+GUI_SPRITE_Create <= USED 0
+GUI_SPRITE_CreateEx <= USED 0
+GUI_SPRITE_CreateHidden <= USED 0
+GUI_SPRITE_CreateHiddenEx <= USED 0
+GUI_SPRITE_GetState <= USED 0
+GUI_SPRITE_Hide <= USED 0
+GUI_SPRITE_SetBitmap <= USED 0
+GUI_SPRITE_SetBitmapAndPosition <= USED 0
+GUI_SPRITE__SetCallback <= USED 0
+;FILE gui_time.o
+GUI_Delay <= USED 0
+;FILE gui_timer.o
+GUI_TIMER_GetPeriod <= USED 0
+GUI_TIMER_SetDelay <= USED 0
+GUI_TIMER_SetTime <= USED 0
+GUI_TIMER__GetNextTimer <= USED 0
+GUI_TIMER__GetPeriod <= USED 0
+GUI_TIMER__IsActive <= USED 0
+;FILE gui_touch.o
+GUI_TOUCH_GetState <= USED 0
+;FILE gui_touch_driveranalog.o
+GUI_TOUCH_GetCalData <= USED 0
+GUI_TOUCH_GetxPhys <= USED 0
+GUI_TOUCH_GetyPhys <= USED 0
+GUI_TOUCH_SetDefaultCalibration <= USED 0
+GUI_TOUCH_SetOrientationPhys <= USED 0
+;FILE gui_touch_storestate.o
+GUI_TOUCH_SetLayer <= USED 0
+;FILE gui_touch_storeunstable.o
+GUI_TOUCH_GetUnstable <= USED 0
+;FILE gui_uc.o
+GUI_UC_Encode <= USED 0
+GUI_UC_GetCharCode <= USED 0
+GUI_UC_GetCharSize <= USED 0
+GUI_UC__CalcSizeOfChar <= USED 0
+GUI_UC__NumBytes2NumChars <= USED 0
+;FILE gui_waitevent.o
+GUI_SetSignalEventFunc <= USED 0
+GUI_SetWaitEventFunc <= USED 0
+GUI_SetWaitEventTimedFunc <= USED 0
+GUI_WaitEvent <= USED 0
+;FILE gui_x.o
+GUI_X_Delay <= USED 0
+GUI_X_ErrorOut <= USED 0
+GUI_X_Log <= USED 0
+GUI_X_Warn <= USED 0
+;FILE gui_x_touch_analog.o
+;FILE guicc_0.o
+LCD_SetLUT <= USED 0
+LCD_SetLUTEx <= USED 0
+;FILE guicc_8888_index2color.o
+;FILE guicc_888_index2color.o
+;FILE guicc_m565.o
+GUICC_M565_SetCustColorConv <= USED 0
+;FILE guicharpex.o
+;FILE guiconf.o
+;FILE guidev.o
+GUI_MEMDEV_Create <= USED 0
+GUI_MEMDEV_MarkDirty <= USED 0
+;FILE guidev_16.o
+GUI_MEMDEV_SetDrawMemdev16bppFunc <= USED 0
+;FILE guidev_banding.o
+GUI_MEMDEV__SetAlphaCallback <= USED 0
+;FILE guidev_clear.o
+;FILE guidev_createfixed.o
+GUI_MEMDEV_CreateFixed <= USED 0
+GUI_MEMDEV_CreateFixed32 <= USED 0
+;FILE guidev_getdataptr.o
+;FILE guidev_getpos.o
+GUI_MEMDEV_GetXPos <= USED 0
+GUI_MEMDEV_GetYPos <= USED 0
+;FILE guidev_getxsize.o
+GUI_MEMDEV_GetXSize <= USED 0
+;FILE guidev_getysize.o
+;FILE guidev_reduceysize.o
+;FILE guidev_setorg.o
+;FILE guidev_staticdevices.o
+GUI_MEMDEV_CreateStatic <= USED 0
+GUI_MEMDEV_GetStaticDevice <= USED 0
+GUI_MEMDEV_GetWindowDevice <= USED 0
+;FILE guidev_usage.o
+GUI_USAGE_Select <= USED 0
+;FILE guidev_usagebm.o
+;FILE guidev_write.o
+;FILE guidev_writetoactivealpha.o
+;FILE guidev_writetoactiveopaque.o
+;FILE header.o
+HEADER_Create <= USED 0
+HEADER_DeleteItem <= USED 0
+HEADER_GetUserData <= USED 0
+HEADER_SetDirIndicator <= USED 0
+HEADER_SetFont <= USED 0
+HEADER_SetHeight <= USED 0
+HEADER_SetItemText <= USED 0
+HEADER_SetTextAlign <= USED 0
+HEADER_SetUserData <= USED 0
+;FILE header_getsel.o
+;FILE header_skinclassic.o
+HEADER_SetDefaultSkinClassic <= USED 0
+HEADER_SetSkinClassic <= USED 0
 ;FILE ili93xx.o
 LCD_BGR2RGB <= USED 0
 LCD_Color_Fill <= USED 0
 LCD_DisplayOff <= USED 0
 LCD_DisplayOn <= USED 0
-LCD_DrawLine <= USED 0
-LCD_DrawPoint <= USED 0
 LCD_DrawRectangle <= USED 0
-LCD_Draw_Circle <= USED 0
-LCD_Pow <= USED 0
-LCD_ReadPoint <= USED 0
+LCD_SSD_BackLightSet <= USED 0
 LCD_Set_Window <= USED 0
-LCD_ShowNum <= USED 0
-LCD_ShowString <= USED 0
 LCD_ShowxNum <= USED 0
 LCD_WriteRAM <= USED 0
-opt_delay <= USED 0
+;FILE lcd.o
+;FILE lcd_aa.o
+LCD_AA_MixColors16 <= USED 0
+LCD_AA_MixColors256 <= USED 0
+LCD_SetPixelAA4_NoTrans <= USED 0
+LCD_SetPixelAA4_Trans <= USED 0
+LCD_SetPixelAA8_NoTrans <= USED 0
+LCD_SetPixelAA8_Trans <= USED 0
+LCD__GetPfSetPixel <= USED 0
+;FILE lcd_color.o
+LCD_GetpPalConvTable <= USED 0
+LCD_SetMaxNumColors <= USED 0
+;FILE lcd_getcolorindex.o
+;FILE lcd_getex.o
+LCD_GetBitsPerPixel <= USED 0
+LCD_GetBitsPerPixelMax <= USED 0
+LCD_GetDevFunc <= USED 0
+LCD_GetMirrorX <= USED 0
+LCD_GetMirrorXEx <= USED 0
+LCD_GetMirrorY <= USED 0
+LCD_GetMirrorYEx <= USED 0
+LCD_GetSwapXY <= USED 0
+LCD_GetSwapXYEx <= USED 0
+LCD_GetVXSize <= USED 0
+LCD_GetVYSize <= USED 0
+LCD_GetVYSizeMax <= USED 0
+LCD_GetXMag <= USED 0
+LCD_GetXMagEx <= USED 0
+LCD_GetXSizeMax <= USED 0
+LCD_GetYMag <= USED 0
+LCD_GetYMagEx <= USED 0
+LCD_GetYSizeMax <= USED 0
+LCD_GetpfColor2IndexEx <= USED 0
+LCD_GetpfIndex2ColorEx <= USED 0
+;FILE lcd_getnumdisplays.o
+;FILE lcd_getp.o
+GUI_GetPixelIndex <= USED 0
+LCD_GetPixelIndex <= USED 0
+;FILE lcd_getpixelcolor.o
+LCD_GetPixelColor <= USED 0
+;FILE lcd_readrect.o
+GUI_ReadRect <= USED 0
+LCD_ReadRect <= USED 0
+LCD_ReadRectNoClip <= USED 0
+;FILE lcd_selectlcd.o
+;FILE lcd_set.o
+LCD_GetPos <= USED 0
+LCD_Refresh <= USED 0
+LCD_RefreshEx <= USED 0
+LCD_SetAlpha <= USED 0
+LCD_SetAlphaEx <= USED 0
+LCD_SetAlphaMode <= USED 0
+LCD_SetAlphaModeEx <= USED 0
+LCD_SetChroma <= USED 0
+LCD_SetChromaEx <= USED 0
+LCD_SetChromaMode <= USED 0
+LCD_SetChromaModeEx <= USED 0
+LCD_SetDevFunc <= USED 0
+LCD_SetLUTEntry <= USED 0
+LCD_SetPos <= USED 0
+LCD_SetSize <= USED 0
+LCD_SetVRAMAddr <= USED 0
+LCD_SetVRAMAddrEx <= USED 0
+LCD_SetVSize <= USED 0
+LCD_SetVis <= USED 0
+;FILE lcd_setcliprectex.o
+;FILE lcd_updatecolorindices.o
+;FILE lcdconf_flexcolor_template.o
+;FILE led.o
+;FILE listview.o
+LISTVIEW_CreateEx <= USED 0
+LISTVIEW_DecSel <= USED 0
+LISTVIEW_EnableCellSelect <= USED 0
+LISTVIEW_GetUserData <= USED 0
+LISTVIEW_IncSel <= USED 0
+LISTVIEW_SetHeaderHeight <= USED 0
+LISTVIEW_SetUserData <= USED 0
+;FILE listview_createindirect.o
+;FILE listview_disablerow.o
+LISTVIEW_DisableRow <= USED 0
+LISTVIEW_EnableRow <= USED 0
+;FILE listview_getitemtext.o
+LISTVIEW_GetItemText <= USED 0
+LISTVIEW_GetItemTextLen <= USED 0
+LISTVIEW_GetItemTextSorted <= USED 0
+LISTVIEW__GetRowSorted <= USED 0
+;FILE listview_getnumcolumns.o
+LISTVIEW_GetNumColumns <= USED 0
+;FILE listview_getnumrows.o
+;FILE listview_getsel.o
+LISTVIEW_GetSelCol <= USED 0
+;FILE listview_getwrapmode.o
+;FILE listview_setbkcolor.o
+;FILE listview_setfont.o
+;FILE listview_setgridvis.o
+;FILE listview_setitemtext.o
+LISTVIEW_SetItemTextSorted <= USED 0
+;FILE listview_setlborder.o
+LISTVIEW_SetLBorder <= USED 0
+;FILE listview_setrborder.o
+LISTVIEW_SetRBorder <= USED 0
 ;FILE main.o
 ;FILE malloc.o
 mymemcpy <= USED 0
@@ -97,6 +476,21 @@ myrealloc <= USED 0
 ;FILE mycc936.o
 ff_convert <= USED 0
 ff_wtoupper <= USED 0
+;FILE myiic.o
+IIC_Init <= USED 0
+;FILE public.o
+BufSet <= USED 0
+;FILE scrollbar.o
+SCROLLBAR_GetUserData <= USED 0
+SCROLLBAR_SetNumItems <= USED 0
+SCROLLBAR_SetPageSize <= USED 0
+SCROLLBAR_SetState <= USED 0
+SCROLLBAR_SetUserData <= USED 0
+;FILE scrollbar_create.o
+SCROLLBAR_Create <= USED 0
+;FILE scrollbar_skinclassic.o
+SCROLLBAR_SetDefaultSkinClassic <= USED 0
+SCROLLBAR_SetSkinClassic <= USED 0
 ;FILE sdio_sdcard.o
 SD_GetState <= USED 0
 SD_PowerOFF <= USED 0
@@ -110,11 +504,126 @@ MSR_MSP <= USED 0
 Sys_Soft_Reset <= USED 0
 Sys_Standby <= USED 0
 WFI_SET <= USED 0
+;FILE taskmanger.o
 ;FILE text.o
+Get_HzMat <= USED 0
+Show_Font <= USED 0
+Show_Str <= USED 0
 Show_Str_Mid <= USED 0
+showFont <= USED 0
+;FILE touch.o
+TP_Draw_Big_Point <= USED 0
+;FILE usart1.o
+COM1DelObserver <= USED 0
+COM1SendBuf_Enter <= USED 0
 ;FILE w25qxx.o
 W25QXX_Erase_Chip <= USED 0
 W25QXX_PowerDown <= USED 0
 W25QXX_WAKEUP <= USED 0
 W25QXX_Write_Disable <= USED 0
 W25QXX_Write_SR <= USED 0
+;FILE widget.o
+WIDGET_GetState <= USED 0
+WIDGET_SetDefaultEffect <= USED 0
+WIDGET__DrawFocusRect <= USED 0
+WIDGET__DrawHLine <= USED 0
+WIDGET__DrawVLine <= USED 0
+WIDGET__EFFECT_DrawDownRect <= USED 0
+WIDGET__GetBkColor <= USED 0
+WIDGET__GetWindowSizeX <= USED 0
+;FILE widget_effect_3d.o
+WIDGET_EFFECT_3D_GetColor <= USED 0
+WIDGET_EFFECT_3D_GetNumColors <= USED 0
+WIDGET_EFFECT_3D_SetColor <= USED 0
+;FILE widget_fillstringinrect.o
+;FILE wm.o
+WM_CreateWindow <= USED 0
+;FILE wm__foreachdesc.o
+;FILE wm__getfirstsibling.o
+;FILE wm__getfocussedchild.o
+;FILE wm__getlastsibling.o
+;FILE wm__getprevsibling.o
+;FILE wm__isancestor.o
+;FILE wm__ischild.o
+;FILE wm__isenabled.o
+;FILE wm__screen2client.o
+;FILE wm__sendmessage.o
+;FILE wm__sendmessageifenabled.o
+;FILE wm__sendmessagenopara.o
+;FILE wm__updatechildpositions.o
+;FILE wm_bringtobottom.o
+;FILE wm_bringtotop.o
+;FILE wm_checkscrollpos.o
+;FILE wm_criticalhandle.o
+;FILE wm_foreachdesc.o
+;FILE wm_getbkcolor.o
+WM_GetBkColor <= USED 0
+;FILE wm_getclientrect.o
+;FILE wm_getclientwindow.o
+;FILE wm_getdesktopwindow.o
+;FILE wm_getdesktopwindowex.o
+;FILE wm_getdialogitem.o
+;FILE wm_getfirstchild.o
+;FILE wm_getflags.o
+;FILE wm_getfocussedwindow.o
+;FILE wm_getid.o
+;FILE wm_getinsiderect.o
+WM_GetInsideRect <= USED 0
+;FILE wm_getinsiderectexscrollbar.o
+;FILE wm_getnextsibling.o
+;FILE wm_getorg.o
+WM_GetOrgX <= USED 0
+WM_GetOrgY <= USED 0
+WM_GetWindowOrgY <= USED 0
+;FILE wm_getparent.o
+;FILE wm_getscrollbar.o
+;FILE wm_getscrollpartner.o
+;FILE wm_getscrollstate.o
+;FILE wm_getwindowrect.o
+WM_GetWindowRect <= USED 0
+;FILE wm_getwindowsize.o
+;FILE wm_hascaptured.o
+;FILE wm_hasfocus.o
+;FILE wm_hide.o
+;FILE wm_isfocussable.o
+;FILE wm_iswindow.o
+;FILE wm_memdev.o
+WM_EnableMemdev <= USED 0
+;FILE wm_move.o
+WM_MoveTo <= USED 0
+WM__MoveTo <= USED 0
+;FILE wm_movechildto.o
+;FILE wm_notifyparent.o
+;FILE wm_onkey.o
+;FILE wm_pid__getprevstate.o
+WM_PID__GetPrevState <= USED 0
+;FILE wm_resizewindow.o
+;FILE wm_screen2win.o
+WM_Screen2hWinEx <= USED 0
+;FILE wm_sendmessagenopara.o
+;FILE wm_sendtoparent.o
+;FILE wm_setcapture.o
+;FILE wm_setcapturemove.o
+;FILE wm_setfocus.o
+;FILE wm_setfocusonnextchild.o
+;FILE wm_setfocusonprevchild.o
+;FILE wm_setscrollbar.o
+;FILE wm_setscrollstate.o
+;FILE wm_setsize.o
+;FILE wm_settrans.o
+WM_ClrHasTrans <= USED 0
+WM_GetHasTrans <= USED 0
+;FILE wm_setusercliprect.o
+;FILE wm_show.o
+;FILE wm_timer.o
+WM_GetTimerId <= USED 0
+;FILE wm_touch.o
+WM__SetLastTouched <= USED 0
+WM__SetMotionCallback <= USED 0
+WM__SetToolTipCallback <= USED 0
+;FILE wm_userdata.o
+WM_GetUserData <= USED 0
+WM_SetUserData <= USED 0
+WM__GetUserDataEx <= USED 0
+WM__SetUserDataEx <= USED 0
+;FILE wm_validatewindow.o

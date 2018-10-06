@@ -3,4 +3,4 @@
 -IC:\Keil_v5\ARM\CMSIS\Include
 -IC:\Keil_v5\ARM\INC\ST\STM32F10x
 -D__UVISION_VERSION="525" -DSTM32F10X_HD
--o .\objects\w25qxx.o --omf_browse .\objects\w25qxx.crf --depend .\objects\w25qxx.d --feedback ".\Objects\SWD.fed" "HARDWARE\W25QXX\w25qxx.c"
+-o .\objects\public.o --omf_browse .\objects\public.crf --depend .\objects\public.d --feedback ".\Objects\SWD.fed" "APP\Public.c"

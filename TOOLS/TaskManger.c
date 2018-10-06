@@ -4,7 +4,7 @@
 _TaskManger TaskManger;
 _TaskList TaskList;
 
-char *itoa(u32 val, char *buf, unsigned radix)
+static inline char *itoa(u32 val, char *buf, unsigned radix)
 {
 	char *p;
 	char *firstdig;
@@ -12,26 +12,26 @@ char *itoa(u32 val, char *buf, unsigned radix)
 	unsigned   digval;         
 	p = buf;     
 	firstdig = p;     
-	do{        
-		digval = (unsigned)(val % radix);        
-		val /= radix;               
-		if (digval > 9)            
-			*p++ = (char)(digval - 10 + 'a');         
-		else            
-			*p++ = (char)(digval + '0');          
-	}while(val > 0);       
-	*p-- = '\0';             
-	do{        
-		temp = *p;        
-		*p = *firstdig;        
-		*firstdig = temp;        
-		--p;        
-		++firstdig;            
-	}while(firstdig < p);      
+	do{
+		digval = (unsigned)(val % radix);
+		val /= radix;
+		if (digval > 9)
+			*p++ = (char)(digval - 10 + 'a');
+		else
+			*p++ = (char)(digval + '0');
+	}while(val > 0);
+	*p-- = '\0';
+	do{
+		temp = *p;
+		*p = *firstdig;
+		*firstdig = temp;
+		--p;
+		++firstdig;
+	}while(firstdig < p);
 	return buf;
 }
 
-u32 CreateTask(u8 *TaskName,u16 delay,void(*taskFunction)(void))
+u32 CreateTask(u8 *TaskName,u16 delayDay,u16 delayH, u16 delayM,u16 delayS,u16 delayMs,void(*taskFunction)(void))
 {
 	u8 i,j=0;
 	for(i=0;i<MAXTASKCNT;i++)
@@ -49,13 +49,8 @@ u32 CreateTask(u8 *TaskName,u16 delay,void(*taskFunction)(void))
 		}
 		
 		strcpy((char*)TaskManger.Tasks[i].TaskName,(char*)TaskName);
-//		j = 0;
-//		do{
-//			TaskManger.Tasks[i].TaskName[j] = *TaskName++;
-//			j++;
-//		}while(*TaskName != '\0');
 		
-		TaskManger.Tasks[i].DelayTime = delay;
+		TaskManger.Tasks[i].DelayTime = ((delayDay * 86400000) + (delayH * 3600000) + (delayM * 60000) + (delayS * 1000) + delayMs);
 		TaskManger.Tasks[i].MaxUseTime = 0;
 		TaskManger.Tasks[i].Tick = 0;
 		TaskManger.Tasks[i].ExecInterval = 0;
@@ -101,6 +96,11 @@ _TaskList* GetTaskList(void)
 			itoa(Task->DelayTime,(char*)info->DelayTime,10);
 			itoa(Task->UseTime,(char*)info->ExecTime,10);
 			itoa(Task->ExecInterval,(char*)info->ExecInterval,10);
+			if(Task->DelayTime)
+				Task->TimeRemain = Task->DelayTime-MsTickDiff(Task->Tick);
+			else
+				Task->TimeRemain = 0;
+			itoa(Task->TimeRemain,(char*)info->TimeRemain,10);
 			if(Task->UseTime >= 1)
 				info->warn = 1;
 			else

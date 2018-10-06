@@ -13,6 +13,7 @@ u32 LedTask;
 u32 CntTasks;
 u32 CanTask;
 u32 led0task;
+u32 TickTest;
 
 //对话框资源表
 static const GUI_WIDGET_CREATE_INFO _aDialogCreate[] = 
@@ -39,6 +40,11 @@ void led0test(void)
 	LED0CHANGE;
 }
 
+void ticktest(void)
+{
+	COM1SendBuf((u8*)"1234567890",10);
+}
+
 void showtasks(void)
 {
 	u8 i,j;
@@ -53,6 +59,7 @@ void showtasks(void)
 		LISTVIEW_SetItemText(listiewhandle,2,i,(char*)info->DelayTime);
 		LISTVIEW_SetItemText(listiewhandle,3,i,(char*)info->ExecInterval);
 		LISTVIEW_SetItemText(listiewhandle,4,i,(char*)info->ExecTime);
+		LISTVIEW_SetItemText(listiewhandle,5,i,(char*)info->TimeRemain);
 	}
 	for(;i<j;i++)
 	{
@@ -61,6 +68,7 @@ void showtasks(void)
 		LISTVIEW_SetItemText(listiewhandle,2,i,"");
 		LISTVIEW_SetItemText(listiewhandle,3,i,"");
 		LISTVIEW_SetItemText(listiewhandle,4,i,"");
+		LISTVIEW_SetItemText(listiewhandle,5,i,"");
 	}
 }
 
@@ -96,10 +104,10 @@ static void _cbDialog(WM_MESSAGE * pMsg)
 			LISTVIEW_SetFont(hItem,&GUI_FontHZ12);
 			LISTVIEW_AddColumn(hItem,30,"ID",GUI_TA_HCENTER | GUI_TA_VCENTER);
 			LISTVIEW_AddColumn(hItem,120,"NAME",GUI_TA_HCENTER | GUI_TA_VCENTER);
-			LISTVIEW_AddColumn(hItem,60,"DELAY",GUI_TA_HCENTER | GUI_TA_VCENTER);
+			LISTVIEW_AddColumn(hItem,80,"DELAY",GUI_TA_HCENTER | GUI_TA_VCENTER);
 			LISTVIEW_AddColumn(hItem,60,"ITVAL",GUI_TA_HCENTER | GUI_TA_VCENTER);
 			LISTVIEW_AddColumn(hItem,60,"USETIME",GUI_TA_HCENTER | GUI_TA_VCENTER);
-			
+			LISTVIEW_AddColumn(hItem,60,"REMAIN",GUI_TA_HCENTER | GUI_TA_VCENTER);
 			LISTVIEW_SetBkColor(hItem,LISTVIEW_CI_UNSEL,GUI_GRAY);
 			LISTVIEW_SetGridVis(hItem,1);
 			for(i=0;i<MAXTASKCNT;i++)
@@ -126,7 +134,7 @@ static void _cbDialog(WM_MESSAGE * pMsg)
 					switch(NCode) 
 					{
 						case WM_NOTIFICATION_CLICKED:
-							LedTask = CreateTask((u8*)"LedTask",500,ledtask);
+							LedTask = CreateTask((u8*)"运行指示灯",0,0,0,0,500,ledtask);
 							break;
 						case WM_NOTIFICATION_RELEASED:
 							
@@ -160,13 +168,14 @@ int main(void)
 	GUI_Init();	  
 	GUI_CreateDialogBox(_aDialogCreate, GUI_COUNTOF(_aDialogCreate), _cbDialog, WM_HBKWIN, 0, 0);
 	
-	LedTask = CreateTask((u8*)"运行指示灯",100,ledtask);
-	led0task = CreateTask((u8*)"LED0测试",100,led0test);
-	Com1Task = CreateTask((u8*)"串口数据接收",0,COM1Task);
-	GuiTask = CreateTask((u8*)"界面刷新",5,guitask);
-	CanTask = CreateTask((u8*)"CAN数据接收",0,CANTask);
-	CntTasks = CreateTask((u8*)"任务信息显示",1000,showtasks);
-	
+	LedTask = CreateTask((u8*)"运行指示灯",0,0,0,0,500,ledtask);
+	led0task = CreateTask((u8*)"LED0测试",0,0,1,0,0,led0test);
+	Com1Task = CreateTask((u8*)"串口数据接收",0,0,0,0,0,COM1Task);
+	Com1Task = CreateTask((u8*)"系统时基测试",0,0,0,1,0,ticktest);
+	GuiTask = CreateTask((u8*)"界面刷新",0,0,0,0,5,guitask);
+	CanTask = CreateTask((u8*)"CAN数据接收",0,0,0,0,0,CANTask);
+	CntTasks = CreateTask((u8*)"任务信息显示",0,0,0,1,0,showtasks);
+
 	for(;;)
 	{
 		ExecTask();
