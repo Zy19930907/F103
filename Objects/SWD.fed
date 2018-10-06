@@ -1,0 +1,120 @@
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Sun Sep 30 17:48:28 2018
+;VERSION 0.2
+;FILE can.o
+CAN_IO_Init <= USED 0
+Can1Init <= USED 0
+Can1RecvFunc <= USED 0
+CanBaudValue <= USED 0
+CanIdSwitch <= USED 0
+CanRegisterConfig <= USED 0
+;FILE delay.o
+;FILE diskio.o
+disk_ioctl <= USED 0
+ff_memalloc <= USED 0
+ff_memfree <= USED 0
+get_fattime <= USED 0
+;FILE exfuns.o
+char_upper <= USED 0
+exf_getfree <= USED 0
+f_typetell <= USED 0
+;FILE fattester.o
+mf_close <= USED 0
+mf_closedir <= USED 0
+mf_fmkfs <= USED 0
+mf_getlabel <= USED 0
+mf_gets <= USED 0
+mf_lseek <= USED 0
+mf_mkdir <= USED 0
+mf_mount <= USED 0
+mf_open <= USED 0
+mf_opendir <= USED 0
+mf_putc <= USED 0
+mf_puts <= USED 0
+mf_read <= USED 0
+mf_readdir <= USED 0
+mf_rename <= USED 0
+mf_scan_files <= USED 0
+mf_setlabel <= USED 0
+mf_showfree <= USED 0
+mf_size <= USED 0
+mf_tell <= USED 0
+mf_unlink <= USED 0
+mf_write <= USED 0
+;FILE ff.o
+clust2sect <= USED 0
+dir_sdi <= USED 0
+f_chmod <= USED 0
+f_close <= USED 0
+f_closedir <= USED 0
+f_getfree <= USED 0
+f_getlabel <= USED 0
+f_gets <= USED 0
+f_lseek <= USED 0
+f_mkdir <= USED 0
+f_mkfs <= USED 0
+f_open <= USED 0
+f_opendir <= USED 0
+f_printf <= USED 0
+f_putc <= USED 0
+f_puts <= USED 0
+f_read <= USED 0
+f_readdir <= USED 0
+f_rename <= USED 0
+f_setlabel <= USED 0
+f_stat <= USED 0
+f_sync <= USED 0
+f_truncate <= USED 0
+f_unlink <= USED 0
+f_utime <= USED 0
+f_write <= USED 0
+get_fat <= USED 0
+put_fat <= USED 0
+;FILE fontupd.o
+fupd_prog <= USED 0
+updata_fontx <= USED 0
+update_font <= USED 0
+;FILE ili93xx.o
+LCD_BGR2RGB <= USED 0
+LCD_Color_Fill <= USED 0
+LCD_DisplayOff <= USED 0
+LCD_DisplayOn <= USED 0
+LCD_DrawLine <= USED 0
+LCD_DrawPoint <= USED 0
+LCD_DrawRectangle <= USED 0
+LCD_Draw_Circle <= USED 0
+LCD_Pow <= USED 0
+LCD_ReadPoint <= USED 0
+LCD_Set_Window <= USED 0
+LCD_ShowNum <= USED 0
+LCD_ShowString <= USED 0
+LCD_ShowxNum <= USED 0
+LCD_WriteRAM <= USED 0
+opt_delay <= USED 0
+;FILE main.o
+;FILE malloc.o
+mymemcpy <= USED 0
+myrealloc <= USED 0
+;FILE mycc936.o
+ff_convert <= USED 0
+ff_wtoupper <= USED 0
+;FILE sdio_sdcard.o
+SD_GetState <= USED 0
+SD_PowerOFF <= USED 0
+SD_SendStatus <= USED 0
+;FILE spi.o
+;FILE startup_stm32f10x_hd.o
+;FILE sys.o
+Ex_NVIC_Config <= USED 0
+JTAG_Set <= USED 0
+MSR_MSP <= USED 0
+Sys_Soft_Reset <= USED 0
+Sys_Standby <= USED 0
+WFI_SET <= USED 0
+;FILE text.o
+Show_Str_Mid <= USED 0
+;FILE w25qxx.o
+W25QXX_Erase_Chip <= USED 0
+W25QXX_PowerDown <= USED 0
+W25QXX_WAKEUP <= USED 0
+W25QXX_Write_Disable <= USED 0
+W25QXX_Write_SR <= USED 0

@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN
+-IC:\Keil_v5\ARM\RV31\INC
+-IC:\Keil_v5\ARM\CMSIS\Include
+-IC:\Keil_v5\ARM\INC\ST\STM32F10x
+-D__UVISION_VERSION="525" -DSTM32F10X_HD
+-o .\objects\ff.o --omf_browse .\objects\ff.crf --depend .\objects\ff.d --feedback ".\Objects\SWD.fed" "FATFS\src\ff.c"

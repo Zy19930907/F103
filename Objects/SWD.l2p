@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+".\objects\startup_stm32f10x_hd.o"
+".\objects\main.o"
+".\objects\public.o"
+".\objects\delay.o"
+".\objects\sys.o"
+".\objects\ili93xx.o"
+".\objects\sdio_sdcard.o"
+".\objects\w25qxx.o"
+".\objects\spi.o"
+".\objects\can.o"
+".\objects\malloc.o"
+".\objects\exfuns.o"
+".\objects\fattester.o"
+".\objects\mycc936.o"
+".\objects\ff.o"
+".\objects\diskio.o"
+".\objects\fontupd.o"
+".\objects\text.o"
+--library_type=microlib --strict --scatter ".\Objects\SWD.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\SWD.map" -o .\Objects\SWD.axf

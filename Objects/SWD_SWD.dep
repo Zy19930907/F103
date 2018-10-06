@@ -1,0 +1,1223 @@
+Dependencies for Project 'SWD', Target 'SWD': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x5BB05E4B)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x--pd "__UVISION_VERSION SETA 525"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (.\APP\main.c)(0x5BB88EF0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\APP\Public.c)(0x5BB8274E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\public.o --omf_browse .\objects\public.crf --depend .\objects\public.d)
+I (APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\APP\CanLinkUsart.c)(0x5BB55502)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\canlinkusart.o --omf_browse .\objects\canlinkusart.crf --depend .\objects\canlinkusart.d)
+I (APP\CanLinkUsart.h)(0x5BB6B950)
+I (APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\SYSTEM\delay\delay.c)(0x5BB188A5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\SYSTEM\sys\sys.c)(0x550EB960)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\HARDWARE\LCD\ILI93xx.c)(0x5BB34B51)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\ili93xx.o --omf_browse .\objects\ili93xx.crf --depend .\objects\ili93xx.d)
+I (HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (HARDWARE\LCD\font.h)(0x547B07F5)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\HARDWARE\SDIO\sdio_sdcard.c)(0x5BB071E0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\sdio_sdcard.o --omf_browse .\objects\sdio_sdcard.crf --depend .\objects\sdio_sdcard.d)
+I (HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+F (.\HARDWARE\W25QXX\w25qxx.c)(0x5BB071E0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\w25qxx.o --omf_browse .\objects\w25qxx.crf --depend .\objects\w25qxx.d)
+I (HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\HARDWARE\SPI\spi.h)(0x54CB6216)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\HARDWARE\SPI\spi.c)(0x54CB6216)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (HARDWARE\SPI\spi.h)(0x54CB6216)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\HARDWARE\CAN\Can.c)(0x5BB6BB6B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
+I (HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\HARDWARE\24CXX\24cxx.c)(0x50082AF8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\24cxx.o --omf_browse .\objects\24cxx.crf --depend .\objects\24cxx.d)
+I (HARDWARE\24CXX\24cxx.h)(0x503A1B30)
+I (.\HARDWARE\IIC\myiic.h)(0x55028153)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\HARDWARE\IIC\myiic.c)(0x5BB16A15)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\myiic.o --omf_browse .\objects\myiic.crf --depend .\objects\myiic.d)
+I (HARDWARE\IIC\myiic.h)(0x55028153)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\HARDWARE\TOUCH\gt9147.c)(0x5BB168D1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\gt9147.o --omf_browse .\objects\gt9147.crf --depend .\objects\gt9147.d)
+I (HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (HARDWARE\TOUCH\ctiic.h)(0x54B7ACCD)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\HARDWARE\TOUCH\touch.c)(0x5BB16939)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\touch.o --omf_browse .\objects\touch.crf --depend .\objects\touch.d)
+I (HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (.\HARDWARE\24CXX\24cxx.h)(0x503A1B30)
+I (.\HARDWARE\IIC\myiic.h)(0x55028153)
+F (.\HARDWARE\TOUCH\ctiic.c)(0x5BB16436)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\ctiic.o --omf_browse .\objects\ctiic.crf --depend .\objects\ctiic.d)
+I (HARDWARE\TOUCH\ctiic.h)(0x54B7ACCD)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\HARDWARE\LED\Led.c)(0x5BB88C31)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\HARDWARE\USART3\Usart1.c)(0x5BB6C03E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\usart1.o --omf_browse .\objects\usart1.crf --depend .\objects\usart1.d)
+I (HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\MALLOC\malloc.c)(0x5BB068B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\malloc.o --omf_browse .\objects\malloc.crf --depend .\objects\malloc.d)
+I (MALLOC\malloc.h)(0x55151553)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\FATFS\exfuns\exfuns.c)(0x5BB073EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\exfuns.o --omf_browse .\objects\exfuns.crf --depend .\objects\exfuns.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (FATFS\exfuns\fattester.h)(0x54F5319E)
+I (.\MALLOC\malloc.h)(0x55151553)
+F (.\FATFS\exfuns\fattester.c)(0x5BB09CF0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\fattester.o --omf_browse .\objects\fattester.crf --depend .\objects\fattester.d)
+I (FATFS\exfuns\fattester.h)(0x54F5319E)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\FATFS\exfuns\mycc936.c)(0x54CF1EB1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\mycc936.o --omf_browse .\objects\mycc936.crf --depend .\objects\mycc936.d)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\FATFS\src\ff.c)(0x54F2F5B9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\ff.o --omf_browse .\objects\ff.crf --depend .\objects\ff.d)
+I (FATFS\src\ff.h)(0x54F2F5B9)
+I (FATFS\src\integer.h)(0x54D8A8D8)
+I (FATFS\src\ffconf.h)(0x54F2F338)
+I (FATFS\src\diskio.h)(0x54D8A8D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+F (.\FATFS\src\diskio.c)(0x5517844A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\diskio.o --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
+I (FATFS\src\diskio.h)(0x54D8A8D8)
+I (FATFS\src\integer.h)(0x54D8A8D8)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\MALLOC\malloc.h)(0x55151553)
+F (.\TEXT\fontupd.c)(0x5BB0984D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\fontupd.o --omf_browse .\objects\fontupd.crf --depend .\objects\fontupd.d)
+I (TEXT\fontupd.h)(0x5BB0719F)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\TEXT\text.c)(0x5BB091E9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\text.o --omf_browse .\objects\text.crf --depend .\objects\text.d)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (TEXT\fontupd.h)(0x5BB0719F)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\EMWIN\STemWin\Lib\STemWin526_CM3_Keil.lib)(0x548F1217)()
+F (.\EMWIN\STemWin\Config\GUI_X_Touch_Analog.c)(0x5BB349EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\gui_x_touch_analog.o --omf_browse .\objects\gui_x_touch_analog.crf --depend .\objects\gui_x_touch_analog.d)
+I (.\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+F (.\EMWIN\STemWin\Config\GUIConf.c)(0x5BB349EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\guiconf.o --omf_browse .\objects\guiconf.crf --depend .\objects\guiconf.d)
+I (.\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\EMWIN\STemWin\Config\GUIDRV_Template.c)(0x5BB34A07)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\guidrv_template.o --omf_browse .\objects\guidrv_template.crf --depend .\objects\guidrv_template.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\LCD_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\LCDConf.h)(0x5426B0F8)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_ConfDefaults.h)(0x548F1219)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+F (.\EMWIN\STemWin\Config\LCDConf_FlexColor_Template.c)(0x552DE4A1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\lcdconf_flexcolor_template.o --omf_browse .\objects\lcdconf_flexcolor_template.crf --depend .\objects\lcdconf_flexcolor_template.d)
+I (.\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (EMWIN\STemWin\Config\GUIDRV_Template.h)(0x52E7F264)
+I (.\EMWIN\STemWin\inc\GUIDRV_FlexColor.h)(0x548F1216)
+F (.\EMWIN\STemWin\OS\GUI_X.c)(0x52E7F264)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\gui_x.o --omf_browse .\objects\gui_x.crf --depend .\objects\gui_x.d)
+I (.\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+F (.\TOOLS\TaskManger.c)(0x5BB88CF3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\taskmanger.o --omf_browse .\objects\taskmanger.crf --depend .\objects\taskmanger.d)
+I (TOOLS\TaskManger.h)(0x5BB88684)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\EMWIN\STemWin\inc\gui.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+F (.\EMWIN\STemWinHZ\GUI_FontHZ12.c)(0x558274CB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\gui_fonthz12.o --omf_browse .\objects\gui_fonthz12.crf --depend .\objects\gui_fonthz12.d)
+I (.\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+F (.\EMWIN\STemWinHZ\GUI_FontHZ16.c)(0x558274CB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\gui_fonthz16.o --omf_browse .\objects\gui_fonthz16.crf --depend .\objects\gui_fonthz16.d)
+I (.\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+F (.\EMWIN\STemWinHZ\GUI_FontHZ24.c)(0x558274DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\gui_fonthz24.o --omf_browse .\objects\gui_fonthz24.crf --depend .\objects\gui_fonthz24.d)
+I (.\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+F (.\EMWIN\STemWinHZ\GUI_UC_EncodeNone.c)(0x5BB2CB63)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\gui_uc_encodenone.o --omf_browse .\objects\gui_uc_encodenone.crf --depend .\objects\gui_uc_encodenone.d)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+F (.\EMWIN\STemWinHZ\GUICharPEx.c)(0x5BB2CB63)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\APP -I .\HARDWARE\LCD -I .\MALLOC -I .\HARDWARE\TOUCH -I .\HARDWARE\24CXX -I .\GUI -I .\FATFS\src -I .\FATFS\exfuns -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE\SPI -I .\HARDWARE\RTC -I .\HARDWARE\CAN -I .\HARDWARE\USART3 -I .\EMWIN\STemWin\Config -I .\EMWIN\STemWin\inc -I .\HARDWARE\IIC -I .\HARDWARE\TOUCH -I .\HARDWARE\LED -I .\TOOLS -I .\EMWIN\STemWinHZ-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525" -DSTM32F10X_HD-o .\objects\guicharpex.o --omf_browse .\objects\guicharpex.crf --depend .\objects\guicharpex.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (.\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (.\EMWIN\STemWin\Config\GUIConf.h)(0x553B4681)
+I (.\EMWIN\STemWin\inc\GUI_Type.h)(0x55BC5130)
+I (.\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (.\FATFS\src\ff.h)(0x54F2F5B9)
+I (.\FATFS\src\integer.h)(0x54D8A8D8)
+I (.\FATFS\src\ffconf.h)(0x54F2F338)
+I (.\HARDWARE\SPI\spi.h)(0x54CB6216)
+I (.\SYSTEM\sys\sys.h)(0x5BB0B782)
+I (.\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\TEXT\fontupd.h)(0x5BB0719F)
+I (.\APP\Public.h)(0x5BB8274E)
+I (.\SYSTEM\delay\delay.h)(0x5BB18331)
+I (.\HARDWARE\LCD\ILI93xx.h)(0x5BB1812F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (.\MALLOC\malloc.h)(0x55151553)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BAFC40)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7E44)
+I (.\TEXT\text.h)(0x5BB091E9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\HARDWARE\W25QXX\w25qxx.h)(0x54CB6216)
+I (.\HARDWARE\CAN\Can.h)(0x5BB891E0)
+I (.\HARDWARE\USART3\Usart1.h)(0x5BB6B80C)
+I (.\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (.\HARDWARE\TOUCH\touch.h)(0x54FBCB5B)
+I (.\HARDWARE\TOUCH\ott2001a.h)(0x54B7AE0D)
+I (.\HARDWARE\TOUCH\gt9147.h)(0x5510EA77)
+I (.\HARDWARE\TOUCH\ft5206.h)(0x54B7ACCD)
+I (.\HARDWARE\LED\Led.h)(0x5BB1852E)
+I (.\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (.\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (.\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (.\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (.\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (.\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (.\TOOLS\TaskManger.h)(0x5BB88684)
+I (.\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552E6270)
+I (EMWIN\STemWinHZ\EmWin_ASCII_Font.h)(0x5538D287)
